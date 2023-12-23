@@ -7,15 +7,16 @@ const ProductDetails = () => {
     const details = useLoaderData()
     const [selectColor,setSelectColor]=useState("")
     const [selectSize,setSelectSize]=useState("")
+    const [selectImg,setSelecImg]=useState('')
     const {_id,img,title,variations}= details
     const {users}= useContext(AuthContext)
   console.log(details);
     const handleColorChange = (color)=>{
         setSelectColor(color)
+        setSelectSize(variations.find(v=>v.color === color).size)
+        setSelecImg(variations.find(v=>v.color === color).img)
     }
-    const handleSizeChange = (size)=>{
-        setSelectSize(size)
-    }
+    
 
     const handleAddtoCart =(id,title)=>{
       console.log(id,title);
@@ -58,7 +59,7 @@ const ProductDetails = () => {
             
             <div className='grid grid-cols-1 lg:grid-cols-2 p-5 gap-20 justify-center items-center'>
                 <div className='mx-20'>
-            <img className=' border-y-4 border-indigo-600  rounded-3xl shadow-2xl p-5' src={img} alt="" />
+            <img className=' border-y-4 border-indigo-600  rounded-3xl shadow-2xl p-5' src={selectImg? selectImg : img} alt="" />
                 </div>
                 <div className=''>
                 <div className="card w-full bg-base-100 shadow-inner">
@@ -81,7 +82,7 @@ const ProductDetails = () => {
     <select value={selectSize} onChange={(e)=>handleSizeChange(e.target.value)}
     className="select select-primary w-full ">
   <option defaultValue>Select Size</option>
-  {variations.map(vari=><option>{vari.size}</option>)}
+  <option>{selectSize}</option>
   
   
  
