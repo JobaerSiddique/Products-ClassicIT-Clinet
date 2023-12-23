@@ -1,207 +1,226 @@
 [
     {
         "title":"Cotton T-Shirst",
-        "img":"https://i.ibb.co/yVTFBSz/t-1.png",
+        "img":"https://i.ibb.co/m62ffg4/c-1.png",
+        "des":"Discover comfort and style with our Cotton T-Shirt Collection. Crafted from premium, breathable cotton, our shirts are a wardrobe essential for everyday wear. The perfect blend of casual and versatile, these tees offer a relaxed fit and lasting durability. Elevate your wardrobe with our timeless and effortlessly cool cotton t-shirts – a must-have for any fashion-forward individual",
+        "price":100,
         "variations":[
             {
                 "proId":101,
                 "color":"Red",
-                "size":"m",
-                "img":"https://i.ibb.co/qWRcZQk/c-1.jpg"
+                "size":"M",
+                "img":"https://i.ibb.co/m62ffg4/c-1.png"
             },
             {
                 "proId":102,
                 "color":"Yellow",
-                "size":"xl",
-                "img":"https://i.ibb.co/yYwrKx8/c-2.jpg"
+                "size":"XL",
+                "img":"https://i.ibb.co/hgZybdf/c-2.png"
             }
         ]
     },
     {
-        "title":"Polo T-Shrit Black",
-        "img":"https://i.ibb.co/F5yJq2g/t-2.png",
+        "title":"Polo T-Shrit ",
+        "img":"https://i.ibb.co/B4v0CW5/polo-1.png",
+        "des":"Elevate your casual style with our classic Polo T-shirt. Crafted for comfort and versatility, this timeless wardrobe essential features a clean design with a smart collar and buttoned placket. Made from premium, breathable fabrics, our Polo T-shirt ensures a relaxed fit for all-day wear. Perfect for both casual and semi-casual occasions, it effortlessly blends comfort and style. Upgrade your wardrobe with this essential piece that complements any look, from laid-back weekends to polished casual outings.",
+        "price":250,
         "variations":[
             {
                 "proId":201,
                 "color":"Blue",
                 "size":"s",
-                "img":"https://i.ibb.co/98309kT/polo-1.jpg"
+                "img":"https://i.ibb.co/B4v0CW5/polo-1.png"
             },
             {
                 "proId":202,
                 "color":"Purple",
                 "size":"m",
-                "img":"https://i.ibb.co/ZmSSzMJ/polo-2.jpg"
+                "img":"https://i.ibb.co/3FV5bKH/polo-2.png"
             }
         ]
     },
     {
-        "title":"Cricket Jersey Pink",
-        "img":"https://i.ibb.co/r5jxNqD/t-3.png",
+        "title":"Cricket Jersey ",
+        "img":"https://i.ibb.co/WB9H4gL/cric-1.png",
+        "des":"Elevate your casual style with our classic Polo T-shirt. Crafted for comfort and versatility, this timeless wardrobe essential features a clean design with a smart collar and buttoned placket. Made from premium, breathable fabrics, our Polo T-shirt ensures a relaxed fit for all-day wear. Perfect for both casual and semi-casual occasions, it effortlessly blends comfort and style. Upgrade your wardrobe with this essential piece that complements any look, from laid-back weekends to polished casual outings.",
+        "price":350,
         "variations":[
             {
                 "proId":301,
                 "color":"Sky Blue",
                 "size":"m",
-                "img":"https://i.ibb.co/G3FcVwL/cric-1.jpg"
+                "img":"https://i.ibb.co/WB9H4gL/cric-1.png"
             },
             {
                 "proId":302,
                 "color":"Yellow",
                 "size":"s",
-                "img":"https://i.ibb.co/NWvjnBq/cric-2.jpg"
+                "img":"https://i.ibb.co/kSvPQDb/cric-2.png"
             }
         ]
     },
    
     {
         "title":"Jersey",
-        "img":"https://i.ibb.co/3mxwwd8/t-5.png",
+        "img":"https://i.ibb.co/FkvWHSW/jer-1.png",
+        "des":"Elevate your casual style with our classic Polo T-shirt. Crafted for comfort and versatility, this timeless wardrobe essential features a clean design with a smart collar and buttoned placket. Made from premium, breathable fabrics, our Polo T-shirt ensures a relaxed fit for all-day wear. Perfect for both casual and semi-casual occasions, it effortlessly blends comfort and style. Upgrade your wardrobe with this essential piece that complements any look, from laid-back weekends to polished casual outings.",
+        "price":230,
         "variations":[
             {
                 "proId":501,
                 "color":"Red",
                 "size":"m",
-                "img":"https://i.ibb.co/zxvwkZR/jer-1.jpg"
+                "img":"https://i.ibb.co/FkvWHSW/jer-1.png"
             },
             {
                 "proId":502,
                 "color":"Yellow",
                 "size":"xl",
-                "img":"https://i.ibb.co/r5GKyX9/jer-2.jpg"
+                "img":"https://i.ibb.co/8NpdB8K/jer-2.png"
             }
         ]
     },
     {
-        "title":"Premium Cotten T-shirt sky Blue",
-        "img":"https://i.ibb.co/pzk34pD/t-6.png",
+        "title":"Premium Cotten T-shirt ",
+        "img":"https://i.ibb.co/6BBHR3j/pre-cot-1.png",
+        "des":"Elevate your casual style with our classic Polo T-shirt. Crafted for comfort and versatility, this timeless wardrobe essential features a clean design with a smart collar and buttoned placket. Made from premium, breathable fabrics, our Polo T-shirt ensures a relaxed fit for all-day wear. Perfect for both casual and semi-casual occasions, it effortlessly blends comfort and style. Upgrade your wardrobe with this essential piece that complements any look, from laid-back weekends to polished casual outings.",
+        "price": 300,
         "variations":[
             {
                 "proId":601,
                 "color":"Purple",
                 "size":"m",
-                "img":"https://i.ibb.co/HzYLHGS/pre-cot-1.jpg"
+                "img":"https://i.ibb.co/6BBHR3j/pre-cot-1.png"
             },
             {
                 "proId":602,
                 "color":"Black",
                 "size":"s",
-                "img":"https://i.ibb.co/Gp4txQV/pre-cot-2.jpg"
+                "img":"https://i.ibb.co/crB8PNH/pre-cot-2.png"
             }
         ]
     },
     {
         "title":"Ultra Premium Cotton T-Shirst",
-        "img":"https://i.ibb.co/5WbTNYP/t-7.png",
+        "img":"https://i.ibb.co/kgDW4xn/ultra-pre-cot-polo-1.png",
+        "des":"Elevate your casual style with our classic Polo T-shirt. Crafted for comfort and versatility, this timeless wardrobe essential features a clean design with a smart collar and buttoned placket. Made from premium, breathable fabrics, our Polo T-shirt ensures a relaxed fit for all-day wear. Perfect for both casual and semi-casual occasions, it effortlessly blends comfort and style. Upgrade your wardrobe with this essential piece that complements any look, from laid-back weekends to polished casual outings.",
+        "price":400,
         "variations":[
             {
                 "proId":701,
                 "color":"Black",
                 "size":"m",
-                "img":"https://i.ibb.co/9y5Jwjd/ultra-pre-1.jpg"
+                "img":"https://i.ibb.co/kgDW4xn/ultra-pre-cot-polo-1.png"
             },
             {
                 "proId":702,
                 "color":"Purple",
                 "size":"xxl",
-                "img":"https://i.ibb.co/3mZgXbX/ultra-pre-2.jpg"
+                "img":"https://i.ibb.co/SvNHG7b/ultra-pre-cot-polo-2.png"
             }
         ]
     },
     {
         "title":"Premium Full sleeve T-Shirst",
-        "img":"https://i.ibb.co/mzM9C3T/t-8.png",
+        "img":"https://i.ibb.co/jrqv85K/pre-full-salve-1.png",
+        "des":"Elevate your casual style with our classic Polo T-shirt. Crafted for comfort and versatility, this timeless wardrobe essential features a clean design with a smart collar and buttoned placket. Made from premium, breathable fabrics, our Polo T-shirt ensures a relaxed fit for all-day wear. Perfect for both casual and semi-casual occasions, it effortlessly blends comfort and style. Upgrade your wardrobe with this essential piece that complements any look, from laid-back weekends to polished casual outings.",
+        "price":500,
         "variations":[
             {
                 "proId":801,
                 "color":"Red",
                 "size":"s",
-                "img":"https://i.ibb.co/nmKDjBm/pre-full-1.jpg"
+                "img":"https://i.ibb.co/jrqv85K/pre-full-salve-1.png"
             },
             {
                 "proId":802,
                 "color":"Yellow",
                 "size":"xl",
-                "img":"https://i.ibb.co/3RYbzzP/pre-full-2.jpg"
+                "img":"https://i.ibb.co/hCcWZtz/pre-full-salve-2.png"
             }
         ]
     },
     {
         "title":"Premium Cotten Polo T-shrit",
-        "img":"https://i.ibb.co/hyp96LT/t-9.png",
+        "img":"https://i.ibb.co/6BBHR3j/pre-cot-1.png",
+        "des":"Elevate your casual style with our classic Polo T-shirt. Crafted for comfort and versatility, this timeless wardrobe essential features a clean design with a smart collar and buttoned placket. Made from premium, breathable fabrics, our Polo T-shirt ensures a relaxed fit for all-day wear. Perfect for both casual and semi-casual occasions, it effortlessly blends comfort and style. Upgrade your wardrobe with this essential piece that complements any look, from laid-back weekends to polished casual outings.",
+        "price":800,
         "variations":[
             {
                 "proId":901,
-                "color":"Red",
+                "color":"Megenta",
                 "size":"m",
-                "img":"https://i.ibb.co/pnjyyWy/pre-cot-po-1.jpg"
+                "img":"https://i.ibb.co/B6Wsfd4/pre-cot-polo-1.png"
             },
             {
                 "proId":902,
-                "color":"Yellow",
+                "color":"Gray",
                 "size":"xl",
-                "img":"https://i.ibb.co/Zx86ZgC/pre-cot-po-2.jpg"
+                "img":"https://i.ibb.co/bvBnJ9Z/pre-cot-polo-2.png"
             }
         ]
     },
     {
-        "title":"Ultra Premium Cotten Polo T-shrit Yellow",
-        "img":"https://i.ibb.co/0MXQ64V/t-10.png",
+        "title":"Ultra Premium Cotten Polo T-shrit ",
+        "img":"https://i.ibb.co/kgDW4xn/ultra-pre-cot-polo-1.png",
+        "des":"Elevate your casual style with our classic Polo T-shirt. Crafted for comfort and versatility, this timeless wardrobe essential features a clean design with a smart collar and buttoned placket. Made from premium, breathable fabrics, our Polo T-shirt ensures a relaxed fit for all-day wear. Perfect for both casual and semi-casual occasions, it effortlessly blends comfort and style. Upgrade your wardrobe with this essential piece that complements any look, from laid-back weekends to polished casual outings.",
+        "price":1000,
         "variations":[
             {
                 "proId":1001,
-                "color":"Red",
+                "color":"Sliver",
                 "size":"m",
-                "img":"https://i.ibb.co/YhVKHYV/ultra-pre-cot-polo-t-1.jpg"
+                "img":"https://i.ibb.co/hMgwW37/ultra-pre-1.png"
             },
             {
                 "proId":1002,
-                "color":"Black",
+                "color":"Green",
                 "size":"xl",
-                "img":"https://i.ibb.co/y5GQS45/ultra-pre-cot-polo-t-2.jpg"
+                "img":"https://i.ibb.co/pyxnCjV/ultra-pre-2.png"
             }
         ]
     },
     
     {
         "title":"Normal T-Shirst",
-        "img":"https://i.ibb.co/p31yq8N/t-12.png",
+        "img":"https://i.ibb.co/h2b5HRN/n-T-1.png",
+        "des":"Elevate your casual style with our classic Polo T-shirt. Crafted for comfort and versatility, this timeless wardrobe essential features a clean design with a smart collar and buttoned placket. Made from premium, breathable fabrics, our Polo T-shirt ensures a relaxed fit for all-day wear. Perfect for both casual and semi-casual occasions, it effortlessly blends comfort and style. Upgrade your wardrobe with this essential piece that complements any look, from laid-back weekends to polished casual outings.",
+        "price":100,
         "variations":[
             {
                 "proId":1200,
-                "color":"Red",
+                "color":"Purple",
                 "size":"m",
-                "img":"https://i.ibb.co/ZNs8j7t/n-T-1.jpg"
+                "img":"https://i.ibb.co/h2b5HRN/n-T-1.png"
             },
             {
                 "proId":1201,
-                "color":"Yellow",
+                "color":"Black",
                 "size":"xl",
-                "img":"https://i.ibb.co/LCMrB7b/n-T-2.jpg"
+                "img":"https://i.ibb.co/L806rHp/n-T-2.png"
             }
         ]
     }
 ]
 
-// https://i.ibb.co/zxvwkZR/jer-1.jpg
-// https://i.ibb.co/98309kT/polo-1.jpg
-// https://i.ibb.co/G3FcVwL/cric-1.jpg
-// https://i.ibb.co/ZmSSzMJ/polo-2.jpg
-// https://i.ibb.co/HzYLHGS/pre-cot-1.jpg
-// https://i.ibb.co/Gp4txQV/pre-cot-2.jpg
-// https://i.ibb.co/nmKDjBm/pre-full-1.jpg
-// https://i.ibb.co/3RYbzzP/pre-full-2.jpg
-// https://i.ibb.co/9y5Jwjd/ultra-pre-1.jpg
-// https://i.ibb.co/3mZgXbX/ultra-pre-2.jpg
-// https://i.ibb.co/pnjyyWy/pre-cot-po-1.jpg
-// https://i.ibb.co/Zx86ZgC/pre-cot-po-2.jpg
-// https://i.ibb.co/YhVKHYV/ultra-pre-cot-polo-t-1.jpg
-// https://i.ibb.co/ZNs8j7t/n-T-1.jpg
-// https://i.ibb.co/LCMrB7b/n-T-2.jpg
-// https://i.ibb.co/r5GKyX9/jer-2.jpg
-// https://i.ibb.co/qWRcZQk/c-1.jpg
-// https://i.ibb.co/yYwrKx8/c-2.jpg
-// https://i.ibb.co/y5GQS45/ultra-pre-cot-polo-t-2.jpg
-// https://i.ibb.co/NWvjnBq/cric-2.jpg
-
+// https://i.ibb.co/m62ffg4/c-1.png
+// https://i.ibb.co/hgZybdf/c-2.png
+// https://i.ibb.co/WB9H4gL/cric-1.png
+// https://i.ibb.co/kSvPQDb/cric-2.png
+// https://i.ibb.co/FkvWHSW/jer-1.png
+// https://i.ibb.co/8NpdB8K/jer-2.png
+// https://i.ibb.co/h2b5HRN/n-T-1.png
+// https://i.ibb.co/L806rHp/n-T-2.png
+// https://i.ibb.co/B4v0CW5/polo-1.png
+// https://i.ibb.co/3FV5bKH/polo-2.png
+// https://i.ibb.co/6BBHR3j/pre-cot-1.png
+// https://i.ibb.co/crB8PNH/pre-cot-2.png
+// https://i.ibb.co/B6Wsfd4/pre-cot-polo-1.png
+// https://i.ibb.co/bvBnJ9Z/pre-cot-polo-2.png
+// https://i.ibb.co/jrqv85K/pre-full-salve-1.png
+// https://i.ibb.co/hCcWZtz/pre-full-salve-2.png
+// https://i.ibb.co/kgDW4xn/ultra-pre-cot-polo-1.png
+// https://i.ibb.co/SvNHG7b/ultra-pre-cot-polo-2.png
+// https://i.ibb.co/hMgwW37/ultra-pre-1.png
+// https://i.ibb.co/pyxnCjV/ultra-pre-2.png
 

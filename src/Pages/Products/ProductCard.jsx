@@ -22,7 +22,7 @@ const ProductCard = ({product}) => {
         )
       }
     </div>
-    <Link to={`productdetails/${_id}`} className='btn btn-outline btn-secondary my-4 hover:scale-95'>Add to Cart</Link>
+    <Link to={`productdetails/${_id}`} className='btn btn-outline btn-secondary my-4 hover:scale-95'>{title} Details</Link>
   </div>
 </div>
         </div>

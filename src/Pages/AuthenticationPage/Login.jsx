@@ -78,7 +78,7 @@ const{LoginUser}= useContext(AuthContext)
             </div>
             <div>
                 
-            <div className="card w-[65%]  shadow-2xl border-y-4 border-cyan-500 rounded-3xl">
+            <div className="card lg:w-[65%]   shadow-2xl border-y-4 border-cyan-500 rounded-3xl">
   <div className="card-body ">
     <h2 className="text-center font-bold uppercase text-xl md:text-3xl  lg:text-4xl bg-gradient-to-r from-indigo-400 to-cyan-400 text-transparent bg-clip-text bg-300% animate-gradient">Login</h2>
     <div className='mt-10'>

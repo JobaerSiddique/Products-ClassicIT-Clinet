@@ -76,7 +76,7 @@ const Register = () => {
           
             <div>
                 
-            <div className="card glass w-[65%]  shadow-2xl border-y-4 border-orange-500 rounded-3xl">
+            <div className="card glass lg:w-[65%]  shadow-2xl border-y-4 border-orange-500 rounded-3xl">
   <div className="card-body ">
     <h2 className="text-center font-bold uppercase text-xl md:text-3xl  lg:text-4xl bg-gradient-to-r from-indigo-400 to-cyan-400 text-transparent bg-clip-text bg-300% animate-gradient">SignUp</h2>
     <div className='mt-10'>
