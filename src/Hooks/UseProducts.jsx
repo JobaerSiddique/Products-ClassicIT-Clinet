@@ -4,7 +4,7 @@ import React, { useEffect, useState } from 'react';
 const UseProducts = () => {
    const [products,setProducts]=useState([])
    useEffect(()=>{
-    axios.get('http://localhost:5000/products')
+    axios.get('https://products-classic-it-servers.vercel.app/products')
     .then(data=>{
         setProducts(data.data)
         console.log(data.data)

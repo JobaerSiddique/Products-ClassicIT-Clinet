@@ -31,7 +31,7 @@ const Register = () => {
       .then(result=>{
         console.log(result);
         const image= result.secure_url
-        axios.post('http://localhost:5000/register',{name,email,password,image})
+        axios.post('https://products-classic-it-servers.vercel.app/register',{name,email,password,image})
             .then(response =>{
               console.log(response.data.UserCreated);
               LoginUser(response.data.UserCreated)

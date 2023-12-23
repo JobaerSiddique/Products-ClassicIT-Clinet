@@ -57,7 +57,7 @@ const ProductDetails = () => {
           reverseButtons: true
         }).then((result) => {
           if (result.isConfirmed) {
-            axios.post('http://localhost:5000/addcart',cartItem)
+            axios.post('https://products-classic-it-servers.vercel.app/addcart',cartItem)
             .then(res=>{
               if(res.data.message === "Add to Cart Successfully"){
                 swalWithBootstrapButtons.fire({

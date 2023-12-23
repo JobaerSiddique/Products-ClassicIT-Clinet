@@ -5,7 +5,7 @@ const User = () => {
     const [user,SetUser]= useState([])
 
     useEffect(()=>{
-        axios.get('http://localhost:5000/user')
+        axios.get('https://products-classic-it-servers.vercel.app/user')
         .then(res=>{
             console.log(res.data)
             SetUser(res.data)

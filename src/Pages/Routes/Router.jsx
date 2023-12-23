@@ -25,12 +25,12 @@ export const router = createBrowserRouter([
             {
                 path:'productdetails/:id',
                 element:<ProductDetails/>,
-                loader:({params})=>fetch(`http://localhost:5000/products/${params.id}`)
+                loader:({params})=>fetch(`https://products-classic-it-servers.vercel.app/products/${params.id}`)
             },
             {
                 path:'explore/productdetails/:id',
                 element:<ProductDetails/>,
-                loader:({params})=>fetch(`http://localhost:5000/products/${params.id}`)
+                loader:({params})=>fetch(`https://products-classic-it-servers.vercel.app/products/${params.id}`)
             },
             {
                 path:'login',

@@ -1,17 +1,21 @@
 import React, { useContext, useEffect, useState } from 'react';
 import { AuthContext } from '../../Contexts/AuthContext/AuthProvider';
 import axios from 'axios';
+import { Navigate } from 'react-router-dom';
 
 const MyCart = () => {
     const [showCart,setShowCart]=useState([])
     const {users}=useContext(AuthContext)
     useEffect(()=>{
-        axios.get(`http://localhost:5000/addcart?email=${users?.email}`)
+        axios.get(`https://products-classic-it-servers.vercel.app/addcart?email=${users?.email}`)
         .then(response=>{
             console.log(response.data);
             setShowCart(response.data)
         })
     },[users?.email])
+    if(!users){
+        return <Navigate to="/login"></Navigate>
+    }
 
     const total = showCart.reduce((sum,item)=>item.price + sum,0)
     return (
