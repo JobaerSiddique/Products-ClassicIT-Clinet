@@ -22,7 +22,7 @@ const ProductDetails = () => {
     const handleAddtoCart =(details)=>{
       const cartItem ={
         title:title,
-        img:selectImg,
+       
         color:selectColor,
         size:selectSize,
         price:price,
