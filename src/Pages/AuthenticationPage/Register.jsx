@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useContext, useState } from 'react';
 import { useForm } from 'react-hook-form';
 import registers from "../../../register.json"
 import Lottie from 'lottie-react';
@@ -6,9 +6,11 @@ import { Link, useNavigate } from 'react-router-dom';
 import ImageConfig from "../../ImageHosting/Imageconfig"
 import axios from 'axios';
 import Swal from 'sweetalert2';
+import { AuthContext } from '../../Contexts/AuthContext/AuthProvider';
 const Register = () => {
     const {register,formState: { errors },handleSubmit,reset} = useForm()
     const navigate= useNavigate()
+    const{LoginUser}=useContext(AuthContext)
     const onSubmit = (data) => {
         
      const file= data.file[0]
@@ -31,7 +33,8 @@ const Register = () => {
         const image= result.secure_url
         axios.post('http://localhost:5000/register',{name,email,password,image})
             .then(response =>{
-              console.log(response.data.message);
+              console.log(response.data.UserCreated);
+              LoginUser(response.data.UserCreated)
               if(response.data.message === 'Register Successfully'){
                 Swal.fire({
                   position: "top-center",

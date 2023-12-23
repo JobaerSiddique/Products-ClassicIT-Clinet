@@ -1,12 +1,24 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import { Link } from 'react-router-dom';
+import { AuthContext } from '../../Contexts/AuthContext/AuthProvider';
 
 const Navbar = () => {
+    const {users,Logout}=useContext(AuthContext)
+    console.log(users);
+    console.log(Logout);
     const NavMenu=<>
-    <li><Link to="login">Login</Link></li>
+   
       
-      <li><Link to="signup">Register</Link></li>
+      
       <li><Link to="explore">Explore</Link></li>
+      {users? <li><button onClick={Logout} >logout <span>{users?.name}</span></button></li> :  <li><Link to="/login">Login</Link></li>}
+  {
+        users&&  <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
+        <div className="w-10 rounded-full">
+          <img src={users?.image}/>
+        </div>
+      </label>
+      }
     
     
     </>

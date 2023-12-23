@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useContext, useEffect, useState } from 'react';
 import login from "../../../login.json"
 import Lottie from 'lottie-react';
 import { loadCaptchaEnginge, LoadCanvasTemplate,validateCaptcha } from 'react-simple-captcha';
@@ -7,9 +7,12 @@ import { useForm } from 'react-hook-form';
 import axios from 'axios';
 import { Link, useNavigate } from 'react-router-dom';
 import Swal from 'sweetalert2';
+import { AuthContext } from '../../Contexts/AuthContext/AuthProvider';
+
 const Login = () => {
 const [disable,setDisable] = useState(true)
 const navigate = useNavigate()
+const{LoginUser}= useContext(AuthContext)
     useEffect(()=>{
         loadCaptchaEnginge(6)
     },[])
@@ -21,7 +24,9 @@ const navigate = useNavigate()
 
         axios.post('http://localhost:5000/login',{email,password})
         .then(response =>{
-          console.log(response.data.message);
+          console.log(response.data.existUser);
+          const result =response.data.existUser
+          LoginUser(result)
           if(response.data.message === 'Login Successfully'){
             Swal.fire({
               position: "top-center",

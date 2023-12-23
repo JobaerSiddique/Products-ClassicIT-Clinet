@@ -4,6 +4,7 @@ import ProductCard from './Products/ProductCard';
 
 const Explores = () => {
     const [products] = UseProducts()
+    console.log("explore",products);
     return (
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 justify-center items-center'>
             {

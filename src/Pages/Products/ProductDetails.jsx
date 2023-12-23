@@ -1,24 +1,64 @@
-import React, { useState } from 'react';
+import React, { useContext, useState } from 'react';
 import { useLoaderData } from 'react-router-dom';
 import "../AuthenticationPage/Login.css"
+import { AuthContext } from '../../Contexts/AuthContext/AuthProvider';
+import Swal from 'sweetalert2';
 const ProductDetails = () => {
     const details = useLoaderData()
     const [selectColor,setSelectColor]=useState("")
     const [selectSize,setSelectSize]=useState("")
-    const {img,title,variations}= details
-
+    const {_id,img,title,variations}= details
+    const {users}= useContext(AuthContext)
+  console.log(details);
     const handleColorChange = (color)=>{
         setSelectColor(color)
     }
     const handleSizeChange = (size)=>{
         setSelectSize(size)
     }
+
+    const handleAddtoCart =(id,title)=>{
+      console.log(id,title);
+      const swalWithBootstrapButtons = Swal.mixin({
+        customClass: {
+          confirmButton: "btn btn-success",
+          cancelButton: "btn btn-info"
+        },
+        buttonsStyling: false
+      });
+      swalWithBootstrapButtons.fire({
+        title: "Are you Add This Products?",
+        text: `${title}`,
+        icon: "warning",
+        showCancelButton: true,
+        confirmButtonText: "Yes, delete it!",
+        cancelButtonText: "No, cancel!",
+        reverseButtons: true
+      }).then((result) => {
+        if (result.isConfirmed) {
+          swalWithBootstrapButtons.fire({
+            title: "Successfully Add to Card",
+            text: "Thanks for ",
+            icon: "success"
+          });
+        } else if (
+          /* Read more about handling dismissals below */
+          result.dismiss === Swal.DismissReason.cancel
+        ) {
+          swalWithBootstrapButtons.fire({
+            title: "Cancelled",
+            text: "Your imaginary file is safe :)",
+            icon: "error"
+          });
+        }
+      });
+    }
     return (
         <div>
             
             <div className='grid grid-cols-1 lg:grid-cols-2 p-5 gap-20 justify-center items-center'>
                 <div className='mx-20'>
-            <img className=' border-y-4 border-indigo-600 animate-pulse rounded-3xl shadow-2xl p-5' src={img} alt="" />
+            <img className=' border-y-4 border-indigo-600  rounded-3xl shadow-2xl p-5' src={img} alt="" />
                 </div>
                 <div className=''>
                 <div className="card w-full bg-base-100 shadow-inner">
@@ -49,7 +89,7 @@ const ProductDetails = () => {
    </div>
    </div>
     <div className="card-actions justify-center">
-      <button className="btn btn-primary">Add To Cart</button>
+      <button onClick={()=>handleAddtoCart({_id,title})} className="btn btn-primary">Add To Cart</button>
     </div>
   </div>
 </div>
